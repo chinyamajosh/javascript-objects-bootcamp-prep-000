@@ -6,9 +6,9 @@ var playlist = {
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist['Phil Ochs'] = 'My Bloody Valentine';
 
-return playlist
+return playlist;
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  
+  delete playlist.Slowdive;
 }
