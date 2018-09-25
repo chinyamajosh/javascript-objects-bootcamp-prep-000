@@ -4,5 +4,9 @@ var playlist = {
 
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist['Phil Ochs'] = 'My Bloody Valentine'
+  playlist['Phil Ochs'] = 'My Bloody Valentine';
+}
+
+function removeFromPlaylist(playlist, artistName) {
+  
 }
